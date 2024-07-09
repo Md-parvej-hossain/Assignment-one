@@ -78,3 +78,61 @@ body {
   border: none;
 }
 /* header section degin end================================== */
+
+/* main section degin start heare============================= */
+.main-section {
+  width: 80%;
+  margin: 40px auto;
+  background: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+}
+.main-content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.main-content h2 {
+  padding-bottom: 20px;
+}
+.main-content p {
+  padding-bottom: 16px;
+}
+.content {
+  width: 100%;
+  margin: 10px auto;
+  height: 250px;
+}
+.scild-content {
+  padding-top: 150px;
+  padding: 0px 30px;
+}
+.scild-content h3 {
+  padding-bottom: 20px;
+}
+.scild-content p {
+  padding-bottom: 20px;
+}
+.content h2 {
+  font-size: 24px;
+}
+.parent-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.common-button {
+  padding: 10px 25px;
+  font-size: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.common-button:hover {
+  background-color: white;
+  border: 2px solid #ddd;
+}
+.content-img {
+  padding-left: 100px;
+}
+
+/* main section degin end heare============================= */
