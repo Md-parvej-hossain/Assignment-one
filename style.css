@@ -157,5 +157,54 @@ body {
   padding-top: 20px;
   height: 450px;
 }
+h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.Current-main-section {
+  width: 80%;
+
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Current-header {
+  text-align: center;
+  padding: 30px;
+}
+.Current-contents {
+  display: flex;
+}
+.Current-header h2 {
+  padding-bottom: 20px;
+}
+.current-target-content {
+  height: 250px;
+  padding: 30px;
+  margin: 5px;
+}
+.current-target-content,
+img,
+h3,
+p {
+  padding-bottom: 20px;
+}
+.current-target-content a {
+  font-size: 16px;
+  color: #000;
+  text-decoration: underline;
+}
+.div0 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.div1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.div2 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
 
 /* main section degin end heare============================= */
