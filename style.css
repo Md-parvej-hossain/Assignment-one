@@ -5,6 +5,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 body {
   font-family: 'Poppins', sans-serif;
@@ -41,6 +42,17 @@ body {
   border-radius: 5px;
   border: 2px solid transparent;
   background-color: #ddd;
+}
+.right-button a {
+  color: #0d1321;
+}
+.button-me {
+  background-color: #0d1321;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 .right-button:hover {
   background-color: white;
@@ -116,7 +128,7 @@ body {
   padding-bottom: 20px;
 }
 .content h2 {
-  font-size: 24px;
+  font-size: 15px;
 }
 .parent-section {
   display: grid;
@@ -158,7 +170,7 @@ body {
   height: 450px;
 }
 h3 {
-  font-size: 30px;
+  font-size: 20px;
   padding-bottom: 20px;
 }
 .Current-main-section {
@@ -189,7 +201,7 @@ h3,
 p {
   padding-bottom: 20px;
 }
-.current-target-content a {
+.all-contrnt {
   font-size: 16px;
   color: #000;
   text-decoration: underline;
@@ -206,5 +218,67 @@ p {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
+/* next-target section degin start=============================== */
 
+/* next-target section degin end=============================== */
+
+.next-target-heading {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.next-target-heading h2 {
+  padding-bottom: 20px;
+}
+.next-target-content {
+  margin: 30px auto;
+
+  width: 80%;
+}
+.Target-contrt {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+.Target-contrt img {
+  margin: 50px;
+}
+#contents {
+  margin: 50px;
+  width: 60%;
+}
+.input-section {
+  text-align: center;
+  padding: 70px 50px 50px 50px;
+  background-image: url(assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 300px;
+  border-radius: 5px;
+}
+.label {
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+}
+.submit {
+  padding: 15px 30px;
+}
+/* footer section degin===================================== */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 130px 15px 130px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  align-items: center;
+  text-align: center;
+}
+/* footer section degin===================================== */
 /* main section degin end heare============================= */
